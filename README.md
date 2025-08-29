@@ -1,22 +1,34 @@
-#📊 Dashboard de Dengue no Brasil (2012–2021)
+🦟📊 DASHBOARD INTERATIVO DA DENGUE NO BRASIL — ANÁLISE COMPLETA (2012–2021)
 
-Este projeto apresenta um dashboard interativo desenvolvido em Python + Streamlit + Plotly, com dados sobre casos de dengue no Brasil entre 2012 e 2021.
+Este projeto apresenta um dashboard interativo desenvolvido com Python, Streamlit e Plotly, utilizando dados oficiais sobre os casos de dengue no Brasil entre os anos de 2012 e 2021.
 
-O objetivo é analisar a evolução dos casos de dengue, bem como visualizar a incidência média e a distribuição regional da doença ao longo do tempo.
+📌 O objetivo é permitir uma exploração visual e dinâmica da evolução da dengue no país, mostrando sua distribuição regional, incidência média anual e número total de casos.
 
-🚀 Tecnologias utilizadas
-Python 3
-Pandas
- → tratamento de dados
-Plotly Express
- → gráficos interativos
-Streamlit
- → interface e dashboard
- pip install pandas plotly streamlit
+🚀 TECNOLOGIAS E FERRAMENTAS UTILIZADAS NESTE PROJETO
 
-##📊 Funcionalidades do Dashboard
+Este projeto foi construído com as seguintes ferramentas:
 
-✔️ Casos totais de dengue no Brasil (2012–2021)
+Python 3 — linguagem principal
+Pandas — limpeza e manipulação dos dados
+Plotly Express — criação de gráficos interativos
+Streamlit — criação do dashboard web interativo
+
+Para instalar as bibliotecas, utilize:
+pip install pandas plotly streamlit
+
+📊 FUNCIONALIDADES INTERATIVAS DISPONÍVEIS NO DASHBOARD
+
+Explore os dados de forma simples e intuitiva! O painel oferece:
+
+✔️ Total de casos de dengue no Brasil entre 2012 e 2021
 ✔️ Taxa de incidência média anual (casos por 100 mil habitantes)
-✔️ Distribuição dos casos por região brasileira
-✔️ Gráficos interativos (área e barras) com visualização dinâmica
+✔️ Distribuição regional dos casos por Norte, Nordeste, Centro-Oeste, Sudeste e Sul
+✔️ Gráficos interativos em área e barras, com filtros e seleções dinâmicas
+
+🌍 OBJETIVO PRINCIPAL DO PROJETO
+
+Este projeto busca:
+
+Facilitar a análise temporal e geográfica da dengue no Brasil
+Contribuir para a visualização acessível de dados de saúde pública
+Servir como base para estudos, reportagens e tomadas de decisão relacionadas à epidemia da dengue
